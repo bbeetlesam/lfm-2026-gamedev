@@ -244,7 +244,7 @@ def apply_box_size(box):
                 value = 200
             else:
                 value = int(raw)
-        except (ValueError, OverflowError):
+        except ValueError, OverflowError:
             value = 200
 
         # Batasi ukuran agar tetap berada dalam batas dunia yang tersedia saat ini.

@@ -3,4 +3,7 @@ name = "larut-gamedev2026"
 version = "0.1.0"
 description = "Visualisation resources for Larut for Maba 2026"
 requires-python = ">=3.14"
-dependencies = ["pygame-ce>=2.5.8"]
+dependencies = [
+    "manim>=0.22.1",
+    "pygame-ce>=2.5.8",
+]
